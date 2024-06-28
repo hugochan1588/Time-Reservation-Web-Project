@@ -1,0 +1,196 @@
+html{
+    min-height: 100vh;
+}
+
+body{
+    font-family: 'Chiron Sans HK WS', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+}
+
+header{
+    min-height:50px;
+}
+
+footer{
+    min-height:50px; 
+}
+
+.first-header {
+	background-color: white;
+	color: #fff;
+	display: block;
+    height: 100px;
+    align-items: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.second-header{
+	background-color: rgb(60, 138, 207);
+	color: #fff;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.body{
+    padding-top: 12px;
+}
+
+
+.description{
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.content{
+    display:flex;
+}
+
+.content a{
+    font-weight: 600;
+    padding: 12px;
+    text-decoration: none;
+    color: rgb(30, 42, 52);
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.content a:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.home h1{
+    padding: 10px;
+    margin: 0;
+}
+
+.name{
+    margin-left: auto;
+    margin-right: 0px;
+
+}
+
+.logo img {
+    max-height: 57px;
+    height:auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.polyu{
+    float:left;
+}
+
+.comp{
+    float: right;
+}
+
+.feng{
+    float: right;
+}
+
+.login{
+    padding-top: 5px;
+    display:relative;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.login input, p{
+    margin-bottom: 10px;
+	border: none;
+	border-radius: 2px;
+}
+
+.login input::placeholder{
+    font-size:14px;
+}
+
+.login button{
+    background-color: #333;
+	color: #fff;
+    display: inline;
+	padding: 7px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.login button:hover{
+    background-color: #555;
+}
+
+.login p{
+    margin: 0;
+}
+
+.booking{
+    padding-left: 10%;
+}
+
+.booking a{
+    border: white 2px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.booking a:hover{
+    background-color: rgb(29, 191, 255);
+}
+
+
+#main{
+    max-width: 800px
+}
+
+.card{
+    border: 1px solid white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.btn-lg{
+    padding: 2rem;
+    font-size: 3rem;
+    border-radius: 0.3rem;
+}
+
+.bg-poly{
+    background-color: #B85661;
+}
+
+.bg-light{
+    background-color: #f8f9fa;
+    border-color:#f8f9fa ;
+    box-shadow:none;
+}
+
+.text-poly{
+    color: #B85661;
+}
+
+.btn-poly{
+    background-color: #B85661;
+    border-color: #B85661;
+
+}
+
+.btn-poly:hover {
+    background-color: #9a414b;
+    border-color: #9a414b;
+}
+

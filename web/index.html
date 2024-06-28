@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" href="images/favicon.ico" />
+    <title>PolyU Reservation System</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css" >
+    <link rel="stylesheet" href="styles/main.css" >
+    <script type="text/javascript">
+        function myFunction() {
+            var x = document.getElementById("password");
+            if (x.type === "password") {
+              x.type = "text";
+            } else {
+              x.type = "password";
+            }
+          }
+    </script>
+
+</head>
+
+<body>
+    <header class="first-header">
+        <div class="logo">
+            <div class="polyu">
+                <img src="images/main-logo-3x.png" alt="PolyU" usemap="#Polyu">
+                    <map name="Polyu">
+                        <area shape="rect" coords="0,0,300,50" alt="poly" href="index.html">
+                    </map>
+            </div>
+            <div class="feng"><img src="images/feng.png" alt="Faculty of Engineering"></div>
+            <div class="comp"><img src="images/compLogo.png" alt="Department of Computing"></div>
+        </div>
+    </header>
+
+    <div class="second-header">
+        <div class="home">
+            <h1> Online Reservation System</h1>
+            <!-- <div class="content">
+                <a class="link create" href="index.html">Create meeting</a>
+                <a class="link choice" href="index.html">Check your choice</a>
+                <a class="link result" href="index.html">Check result</a>
+                <a class="link status" href="index.html">Check status</a>
+                <a class="link edit" href="index.html">Edit result</a>
+            </div> -->
+    
+        </div>
+
+        <div class="login">
+            <p class="text">LOGIN</p>
+            <form  action="loginbranch.php" method="post" enctype="multipart/form-data">
+                <div class="form-row align-items-center">
+                    <div class="col-auto">
+                    <label for="studentid" class=""></label>
+                    <input type="text" class="form-group" id="studentid" name="studentid" required placeholder="NetID">
+                    </div>
+      
+                    <div class="col-auto">
+                    <label for="password" class=""></label>
+                    <input type="password" class="form-group" value="" id="password" name="password" required placeholder="NetPassword">
+                    </div>
+      
+                    <div class="col-auto">
+                    <input type="hidden" class="form-control" id="studentname" name="studentname">
+                    </div>
+
+                    <!-- <input type="checkbox" onclick="myFunction()">Show Password -->
+      
+                    <div class="col-auto">
+                        <div class="button">
+                            <button type="submit" class="btn btn-primary" >Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <div class="body">
+        <div class="description">
+            <p>Welcome to this <b>Online Reservation System.</b></p>
+            <p>Through this <b>reservation system</b>, you can:</p>
+            <ul>
+                <li>Choose timeslots created by your professor.</li>
+                <li>Meet your professor with the time your chose.</li>
+                <li>Consultate, and learn from your professor!</li>
+            </ul>
+        </div>
+
+        <div class="booking">
+            <a class="btn btn-info" href="index.html" role="button">Make a booking</a>
+        </div>
+    </div>
+
+    <!-- <footer>
+        <div class="text-center p-2" style="background-color: rgb(146, 202, 255);">
+            Copyright © 2023 The Hong Kong Polytechnic University. All Rights Reserved.
+        </div>
+    </footer> -->
+
+</body>
+</html>
